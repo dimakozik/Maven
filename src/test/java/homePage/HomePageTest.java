@@ -40,7 +40,7 @@ public class HomePageTest {
 		WebDriverWait wait = new WebDriverWait(driver, 7);
 		wait.until(ExpectedConditions.visibilityOf(homePage.wishPopUp));
 
-		Assert.assertTrue("Wish PopUp is not shown", homePage.wishPopUp.isDisplayed());
+		Assert.assertTrue("Wish PopUp is not shown ", homePage.wishPopUp.isDisplayed());
 
 	}
 
